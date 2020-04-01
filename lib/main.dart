@@ -21,3 +21,17 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class RandomWords extends StatefulWidget {
+  @override
+  RandomWordsState createState() => RandomWordsState();
+}
+
+class RandomWordsState extends State<RandomWords> {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return null;
+  }
+
+}
