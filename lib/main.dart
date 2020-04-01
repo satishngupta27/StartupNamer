@@ -9,15 +9,8 @@ class MyApp extends StatelessWidget {
     // TODO: implement build
 
     return MaterialApp(
-      title: 'Welcome to flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Welcome to flutter'),
-        ),
-        body: Center(
-          child: RandomWords(),
-        ),
-      ),
+      title: 'Startup Name Generator',
+      home: RandomWords(),
     );
   }
 }
